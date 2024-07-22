@@ -25,5 +25,4 @@ jobs:
         goos: ${{ matrix.goos }}
         goarch: ${{ matrix.goarch }}
         md5sum: FALSE
-        sha256sum: TRUE
         compress_assets: OFF
